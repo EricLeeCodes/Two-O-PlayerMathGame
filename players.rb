@@ -6,7 +6,10 @@ class Players
     @player_lives = player_lives
   end
 
-  def to_s
-    "Player #{@player_number} Lives: #{player_lives}"
+  def decrement_lives
+    @player_lives -= 1 
   end
+
 end
+
+
